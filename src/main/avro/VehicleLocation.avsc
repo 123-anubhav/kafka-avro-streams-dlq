@@ -1,0 +1,12 @@
+{
+  "type":"record",
+  "name":"VehicleLocation",
+  "namespace":"com.example.avro",
+  "fields":[
+    {"name":"vehicleId","type":"string"},
+    {"name":"ts","type":"long"},
+    {"name":"lat","type":"double"},
+    {"name":"lon","type":"double"},
+    {"name":"speed","type":"double"}
+  ]
+}
